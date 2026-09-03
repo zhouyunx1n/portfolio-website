@@ -1,0 +1,51 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environments, dependencies, caches, and logs
+node_modules/
+.venv/
+venv/
+__pycache__/
+.cache/
+.pytest_cache/
+*.log
+*.tmp
+*.bak
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Editable source files that are not required by the public static site
+*.psd
+*.ai
+*.aep
+*.blend
+
+# Local design references and QA captures
+/references/
+/design-qa.md
+/design-qa*.png
+/*-qa*.png
+
+# Retained local image variants that are not referenced by the current site
+/assets/images/hero-window-landscape.png
+/assets/images/profile-hero-group-299.png
+/assets/images/profile-hero-group-301.png
+/assets/images/profile-hero.png
+/assets/images/project-03-hero.png
+/assets/projects/hello-transmission-lost/02-gameplay.png
+/assets/projects/hello-transmission-lost/03-design.png
+/assets/projects/hello-transmission-lost/04-character.png
+/assets/projects/hello-transmission-lost/05-ui.png
+
+# Legacy duplicate project-media copies; deployed files live in assets/projects/
+/assets/austronesian-visualization/
+/assets/buman-research-institute/
+/assets/coffeel/
+/assets/hello-transmission-lost/
+/assets/miao-wu/
+/assets/self-discovery-island/
