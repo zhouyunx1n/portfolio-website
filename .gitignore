@@ -47,5 +47,8 @@ __pycache__/
 /assets/buman-research-institute/
 /assets/coffeel/
 /assets/hello-transmission-lost/
-/assets/miao-wu/
 /assets/self-discovery-island/
+
+# The six current MIAO WU gallery images are deployed from this folder.
+/assets/miao-wu/14-hero.png
+/assets/miao-wu/15-project-detail.png
