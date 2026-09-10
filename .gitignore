@@ -44,7 +44,14 @@ __pycache__/
 
 # Legacy duplicate project-media copies; deployed files live in assets/projects/
 /assets/austronesian-visualization/
-/assets/buman-research-institute/
+/assets/buman-research-institute/*
+!/assets/buman-research-institute/man (1).png
+!/assets/buman-research-institute/man (2).png
+!/assets/buman-research-institute/man (3).png
+!/assets/buman-research-institute/man (4).png
+!/assets/buman-research-institute/man (5).png
+!/assets/buman-research-institute/man (6).png
+!/assets/buman-research-institute/man (7).png
 /assets/coffeel/
 /assets/hello-transmission-lost/
 /assets/self-discovery-island/
